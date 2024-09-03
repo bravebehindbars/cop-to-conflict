@@ -1,0 +1,227 @@
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+/* General Styling */
+* {
+	font-family: "oswald";
+	font-size: 105%;
+}
+
+a:hover {
+	color: limegreen;
+}
+
+a.current {
+	pointer-events: none;
+	background-color: dimgray;
+}
+
+i:hover {
+	color:goldenrod;
+}
+
+li:hover {
+	color: goldenrod;
+	cursor: default;
+}
+
+/* Custom Classes */
+.address {
+	font-size: 120%;
+	text-align: center;
+	border-radius: 20px;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+.address:hover {
+	background-color: black;
+	color: red;
+	width: 15rem;
+}
+
+.border img {
+	padding-top: 20px;
+}
+
+.cursor {
+	cursor: default;
+}
+
+.cardbox {
+	width: 18rem; 
+	height: 42rem;
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+.flashy {
+	border: 1px solid black;
+	border-radius: 15px;
+	transition: background-position 0.2s;
+	background-image: linear-gradient(to left, blue, red);
+	background-size: 200% 200%;
+	background-position: 0%;
+	width: 250px;
+	height:15px;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.flashy:hover {
+	background-size: 150% 100%;
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(to right, blue, red);
+}
+
+.flashy:active {
+	background-position: 0%;
+	background-image: linear-gradient(to left, blue, red);
+}
+
+.highlight {
+	/* empty space */
+}
+
+.highlight:hover {
+	color: black;
+	text-shadow: red 2px 2px;
+}
+
+.hightlight2 {
+}
+
+.highlight2:hover {
+	color:yellow;
+}
+
+.linkbox {
+	margin: auto;
+	width: 40%;
+}
+
+.margin {
+	margin:auto;
+	justify-content: center;
+}
+
+.opaque {
+	opacity:60%;
+}
+
+.paragraph {
+	width: 60%;
+	margin:auto;
+}
+
+.resize {
+	width: 65%;
+	height: auto;
+}
+
+.resize2 {
+	height: 288px;
+	width: auto;
+}
+
+.responsive {
+	max-width: 100%;
+	height:auto;
+}
+
+.small {
+	font-size: medium;
+}
+
+
+/* Page Backgrounds */
+.contact {
+	background-image: url("img/desert.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 290%;
+	border-radius: 25%;
+	text-align: center;
+	font-size: 110%;
+	text-shadow: 0.5px 0.5px black;
+}
+
+/* End Page Backgrounds */
+
+
+/* Social Media Icons */
+.navicon {
+	margin-left: auto;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: peru;
+}
+
+.fa:hover {
+    opacity: 1;
+}
+
+.fa:active {
+	opacity: 0.7;
+}
+
+.fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin:hover {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube:hover {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram:hover {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost:hover {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* End Social Media Icons */
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+	.paragraph { 
+		width: 100%; 
+	}
+
+	.px-5 { 
+		padding: 1.25rem !important; 
+	}
+}
+
+/* End Media Queries */
